@@ -2,6 +2,7 @@
   "name": "airbnb-style",
   "version": "2.0.0",
   "description": "A mostly reasonable approach to JavaScript.",
+  "main": "packages/eslint-config-airbnb/index.js",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config:base",
     "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
