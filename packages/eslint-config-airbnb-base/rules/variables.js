@@ -7,26 +7,26 @@ module.exports = {
     'no-catch-shadow': 'off',
 
     // disallow deletion of variables
-    'no-delete-var': 'error',
+    'no-delete-var': 'off',
 
     // disallow labels that share a name with a variable
     // http://eslint.org/docs/rules/no-label-var
-    'no-label-var': 'error',
+    'no-label-var': 'off',
 
     // disallow specific globals
     'no-restricted-globals': 'off',
 
     // disallow declaration of variables already declared in the outer scope
-    'no-shadow': 'error',
+    'no-shadow': 'off',
 
     // disallow shadowing of names such as arguments
-    'no-shadow-restricted-names': 'error',
+    'no-shadow-restricted-names': 'off',
 
     // disallow use of undeclared variables unless mentioned in a /*global */ block
-    'no-undef': 'error',
+    'no-undef': 'off',
 
     // disallow use of undefined when initializing variables
-    'no-undef-init': 'error',
+    'no-undef-init': 'off',
 
     // disallow use of undefined variable
     // http://eslint.org/docs/rules/no-undefined
@@ -34,9 +34,9 @@ module.exports = {
     'no-undefined': 'off',
 
     // disallow declaration of variables that are not used in the code
-    'no-unused-vars': ['error', { vars: 'local', args: 'after-used' }],
+    'no-unused-vars': ['off', { vars: 'local', args: 'after-used' }],
 
     // disallow use of variables before they are defined
-    'no-use-before-define': 'error'
+    'no-use-before-define': 'off'
   }
 };

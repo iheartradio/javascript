@@ -15,51 +15,51 @@ module.exports = {
     // enforces no braces where they can be omitted
     // http://eslint.org/docs/rules/arrow-body-style
     // TODO: enable requireReturnForObjectLiteral?
-    'arrow-body-style': ['error', 'as-needed', {
+    'arrow-body-style': ['off', 'as-needed', {
       requireReturnForObjectLiteral: false,
     }],
 
     // require parens in arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': ['error', 'as-needed', {
+    'arrow-parens': ['off', 'as-needed', {
       requireForBlockBody: true,
     }],
 
     // require space before/after arrow function's arrow
     // http://eslint.org/docs/rules/arrow-spacing
-    'arrow-spacing': ['error', { before: true, after: true }],
+    'arrow-spacing': ['off', { before: true, after: true }],
 
     // verify super() callings in constructors
-    'constructor-super': 'error',
+    'constructor-super': 'off',
 
     // enforce the spacing around the * in generator functions
     // http://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': ['error', { before: false, after: true }],
+    'generator-star-spacing': ['off', { before: false, after: true }],
 
     // disallow modifying variables of class declarations
     // http://eslint.org/docs/rules/no-class-assign
-    'no-class-assign': 'error',
+    'no-class-assign': 'off',
 
     // disallow arrow functions where they could be confused with comparisons
     // http://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': ['error', {
+    'no-confusing-arrow': ['off', {
       allowParens: true,
     }],
 
     // disallow modifying variables that are declared using const
-    'no-const-assign': 'error',
+    'no-const-assign': 'off',
 
     // disallow duplicate class members
     // http://eslint.org/docs/rules/no-dupe-class-members
-    'no-dupe-class-members': 'error',
+    'no-dupe-class-members': 'off',
 
     // disallow importing from the same path more than once
     // http://eslint.org/docs/rules/no-duplicate-imports
-    'no-duplicate-imports': 'error',
+    'no-duplicate-imports': 'off',
 
     // disallow symbol constructor
     // http://eslint.org/docs/rules/no-new-symbol
-    'no-new-symbol': 'error',
+    'no-new-symbol': 'off',
 
     // disallow specific imports
     // http://eslint.org/docs/rules/no-restricted-imports
@@ -67,42 +67,42 @@ module.exports = {
 
     // disallow to use this/super before super() calling in constructors.
     // http://eslint.org/docs/rules/no-this-before-super
-    'no-this-before-super': 'error',
+    'no-this-before-super': 'off',
 
     // disallow useless computed property keys
     // http://eslint.org/docs/rules/no-useless-computed-key
-    'no-useless-computed-key': 'error',
+    'no-useless-computed-key': 'off',
 
     // disallow unnecessary constructor
     // http://eslint.org/docs/rules/no-useless-constructor
-    'no-useless-constructor': 'error',
+    'no-useless-constructor': 'off',
 
     // disallow renaming import, export, and destructured assignments to the same name
     // http://eslint.org/docs/rules/no-useless-rename
-    'no-useless-rename': ['error', {
+    'no-useless-rename': ['off', {
       ignoreDestructuring: false,
       ignoreImport: false,
       ignoreExport: false,
     }],
 
     // require let or const instead of var
-    'no-var': 'error',
+    'no-var': 'off',
 
     // require method and property shorthand syntax for object literals
     // http://eslint.org/docs/rules/object-shorthand
-    'object-shorthand': ['error', 'always', {
+    'object-shorthand': ['off', 'always', {
       ignoreConstructors: false,
       avoidQuotes: true,
     }],
 
     // suggest using arrow functions as callbacks
-    'prefer-arrow-callback': ['error', {
+    'prefer-arrow-callback': ['off', {
       allowNamedFunctions: false,
       allowUnboundThis: true,
     }],
 
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': ['error', {
+    'prefer-const': ['off', {
       destructuring: 'any',
       ignoreReadBeforeAssign: true,
     }],
@@ -119,23 +119,23 @@ module.exports = {
 
     // use rest parameters instead of arguments
     // http://eslint.org/docs/rules/prefer-rest-params
-    'prefer-rest-params': 'error',
+    'prefer-rest-params': 'off',
 
     // suggest using the spread operator instead of .apply()
     // http://eslint.org/docs/rules/prefer-spread
-    'prefer-spread': 'error',
+    'prefer-spread': 'off',
 
     // suggest using template literals instead of string concatenation
     // http://eslint.org/docs/rules/prefer-template
-    'prefer-template': 'error',
+    'prefer-template': 'off',
 
     // disallow generator functions that do not have yield
     // http://eslint.org/docs/rules/require-yield
-    'require-yield': 'error',
+    'require-yield': 'off',
 
     // enforce spacing between object rest-spread
     // http://eslint.org/docs/rules/rest-spread-spacing
-    'rest-spread-spacing': ['error', 'never'],
+    'rest-spread-spacing': ['off', 'never'],
 
     // import sorting
     // http://eslint.org/docs/rules/sort-imports
@@ -147,14 +147,14 @@ module.exports = {
 
     // require a Symbol description
     // http://eslint.org/docs/rules/symbol-description
-    'symbol-description': 'error',
+    'symbol-description': 'off',
 
     // enforce usage of spacing in template strings
     // http://eslint.org/docs/rules/template-curly-spacing
-    'template-curly-spacing': 'error',
+    'template-curly-spacing': 'off',
 
     // enforce spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': ['error', 'after']
+    'yield-star-spacing': ['off', 'after']
   }
 };
