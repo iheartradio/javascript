@@ -34,7 +34,8 @@ module.exports = {
     'no-undefined': 'off',
 
     // disallow declaration of variables that are not used in the code
-    'no-unused-vars': ['off', { vars: 'local', args: 'after-used' }],
+    // styles is ignored to avoid collisions in css modules when passing props to children via spreads
+    'no-unused-vars': ['error', { vars: 'local', args: 'after-used', varsIgnorePattern: '^styles$' }],
 
     // disallow use of variables before they are defined
     'no-use-before-define': 'off'
