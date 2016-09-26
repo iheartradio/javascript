@@ -86,7 +86,7 @@ module.exports = {
     }],
 
     // require let or const instead of var
-    'no-var': 'off',
+    'no-var': 'error',
 
     // require method and property shorthand syntax for object literals
     // http://eslint.org/docs/rules/object-shorthand
@@ -102,7 +102,7 @@ module.exports = {
     }],
 
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': ['off', {
+    'prefer-const': ['error', {
       destructuring: 'any',
       ignoreReadBeforeAssign: true,
     }],
