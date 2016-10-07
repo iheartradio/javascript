@@ -272,7 +272,7 @@ module.exports = {
     // Prevent passing of children as props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
     // TODO: enable, semver-major
-    'react/no-children-prop': 'error'
+    'react/no-children-prop': 'off'
   },
 
   settings: {
