@@ -90,7 +90,7 @@ module.exports = {
 
     // require method and property shorthand syntax for object literals
     // http://eslint.org/docs/rules/object-shorthand
-    'object-shorthand': ['off', 'always', {
+    'object-shorthand': ['error', 'always', {
       ignoreConstructors: false,
       avoidQuotes: true,
     }],
