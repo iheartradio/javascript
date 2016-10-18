@@ -26,7 +26,7 @@ module.exports = {
     'consistent-this': 'off',
 
     // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': 'off',
+    'eol-last': 'error',
 
     // enforce spacing between functions and their invocations
     // http://eslint.org/docs/rules/func-call-spacing
@@ -102,7 +102,7 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
-    'max-len': ['off', 100, 2, {
+    'max-len': ['error', 150, 2, {
       ignoreUrls: true,
       ignoreComments: false,
       ignoreStrings: true,
@@ -158,7 +158,7 @@ module.exports = {
 
     // disallow use of bitwise operators
     // http://eslint.org/docs/rules/no-bitwise
-    'no-bitwise': 'off',
+    'no-bitwise': 'error',
 
     // disallow use of the continue statement
     // http://eslint.org/docs/rules/no-continue
@@ -169,7 +169,7 @@ module.exports = {
 
     // disallow if as the only statement in an else block
     // http://eslint.org/docs/rules/no-lonely-if
-    'no-lonely-if': 'off',
+    'no-lonely-if': 'error',
 
     // disallow un-paren'd mixes of different operators
     // http://eslint.org/docs/rules/no-mixed-operators
@@ -185,7 +185,7 @@ module.exports = {
     }],
 
     // disallow mixed spaces and tabs for indentation
-    'no-mixed-spaces-and-tabs': 'off',
+    'no-mixed-spaces-and-tabs': 'error',
 
     // disallow multiple empty lines and only one newline at the end
     'no-multiple-empty-lines': ['off', { max: 2, maxEOF: 1 }],
@@ -195,14 +195,14 @@ module.exports = {
     'no-negated-condition': 'off',
 
     // disallow nested ternary expressions
-    'no-nested-ternary': 'off',
+    'no-nested-ternary': 'error',
 
     // disallow use of the Object constructor
     'no-new-object': 'off',
 
     // disallow use of unary operators, ++ and --
     // http://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': 'off',
+    'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
 
     // disallow certain syntax forms
     // http://eslint.org/docs/rules/no-restricted-syntax
@@ -217,7 +217,7 @@ module.exports = {
     'no-spaced-func': 'off',
 
     // disallow tab characters entirely
-    'no-tabs': 'off',
+    'no-tabs': 'error',
 
     // disallow the use of ternary operators
     'no-ternary': 'off',
@@ -276,7 +276,7 @@ module.exports = {
     'quote-props': ['off', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
 
     // specify whether double or single quotes should be used
-    quotes: ['off', 'single', { avoidEscape: true }],
+    quotes: ['error', 'single', { avoidEscape: true }],
 
     // do not require jsdoc
     // http://eslint.org/docs/rules/require-jsdoc
