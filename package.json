@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iheartradio",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A mostly reasonable approach to JavaScript.",
   "main": "packages/eslint-config-airbnb/index.js",
   "scripts": {
