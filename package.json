@@ -4,7 +4,7 @@
   "description": "A mostly reasonable approach to JavaScript.",
   "main": "packages/eslint-config-airbnb/index.js",
   "scripts": {
-    "preinstall": "npm run install:config && npm run install:config:base",
+    "preinstall": "# npm run install:config && npm run install:config:base",
     "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
     "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
     "test": "npm run --silent test:config && npm run --silent test:config:base",
@@ -31,6 +31,12 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/airbnb/javascript/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-react": "^6.3.0"
   },
   "homepage": "https://github.com/airbnb/javascript"
 }
